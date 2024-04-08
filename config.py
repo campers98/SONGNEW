@@ -6,9 +6,9 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", ""))
+API_ID = int(getenv("API_ID", "27957041"))
 
-API_HASH = getenv("API_HASH", "")
+API_HASH = getenv("API_HASH", "2ae1c9912cd2efdecae7f0208994f0b0")
 
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 
@@ -20,15 +20,15 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "54000")
 )
 
-LOGGER_ID = int(getenv("LOGGER_ID", ""))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1001975251757"))
 
 OWNER_ID = int(getenv("OWNER_ID", "1471469091"))
 
 START_STICKER_ID = getenv("START_STICKER_ID", "CAACAgUAAxkBAAIYJ2XDYrt9C1aT2TMAAVbvhu7GQt4pxQACOg4AAs7jGVZZ_1ODkCxOcx4E")
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Thava X Music")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "SONGTEST")
 
-POWERED_BY = getenv("POWERED_BY", "˹ 𝐓ʜᴀᴠᴀ ✘ 𝐌ᴜꜱɪᴄ ˼")
+POWERED_BY = getenv("POWERED_BY", "SVD * ALWAYS")
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
@@ -36,7 +36,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Thava-OX/ThavaXMusic",
+    "https://github.com/campers98/SONGNEW",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Main")
 GIT_TOKEN = getenv(
